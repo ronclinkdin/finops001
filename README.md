@@ -17,7 +17,9 @@ Clone or download this repository to your local machine.
 Set up environment variables for the following values:
 
 CLIENT_ID: Client ID of the registered application in Azure Active Directory.
+
 CLIENT_SECRET: Client Secret of the registered application in Azure Active Directory.
+
 CUSTOMER_ID: Customer ID for which you want to retrieve the billing profile.
 Modify the api_version variable in the script if needed, depending on the version of the Partner Center API you wish to use.
 

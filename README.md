@@ -23,9 +23,9 @@ Modify the api_version variable in the script if needed, depending on the versio
 
 Run the script by executing the Python file in your terminal:
 
-'''python
+```bash
 python retrieve_billing_profile.py
-'''
+```
 The script will obtain the access token, make an API request to retrieve the billing profile, and print the response content to the console. You can then process the response data as needed.
 
 Important Note

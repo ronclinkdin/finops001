@@ -1,3 +1,5 @@
+Project: Microsoft Partner Center Billing Profile Retrieval
+This project demonstrates how to retrieve billing profiles from Microsoft Partner Center using Python. It utilizes the Partner Center API to obtain billing information for a specified customer.
 Installation
 Outline the steps required to install and set up your FinOps automation tool for partner, this is mainly to MSFT.
 Include any dependencies that need to be installed, as well as any specific configuration steps.

@@ -5,8 +5,9 @@ import requests
 
 
 # Fetch secret values from environment variables
-client_id = "cdeddf8a-5208-4822-b65e-4317f28f2124"
+client_id = os.environ["CLIENT_ID"]
 client_secret = os.environ["CLIENT_SECRET"]
+
 
 
 
@@ -24,7 +25,7 @@ access_token = token_response.json().get("access_token")
 
 # Specify the API version and customer_id
 api_version = "1.0"  # Adjust the version accordingly
-customer_id = "6b35628c-c50e-4255-9eaa-c14f130d789d"  # Replace with the actual customer_id
+customer_id = os.environ["CUSTOMER_ID"]
 
 api_url = f"https://api.partnercenter.microsoft.com/v{api_version}/customers/{customer_id}/profiles/billing"
 
